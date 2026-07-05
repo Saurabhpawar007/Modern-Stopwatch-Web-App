@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Modern Stopwatch</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="background">
+
+<div class="blur one"></div>
+
+<div class="blur two"></div>
+
+</div>
+
+<div class="container">
+
+<h1>⏱ Stopwatch</h1>
+
+<p class="subtitle">
+Modern Stopwatch Web Application
+</p>
+
+<div class="watch">
+
+<div class="time">
+
+<span id="hours">00</span>
+
+<span>:</span>
+
+<span id="minutes">00</span>
+
+<span>:</span>
+
+<span id="seconds">00</span>
+
+<span class="ms">.</span>
+
+<span id="milliseconds">000</span>
+
+</div>
+
+</div>
+
+<div class="buttons">
+
+<button id="start">
+▶ Start
+</button>
+
+<button id="lap">
+🏁 Lap
+</button>
+
+<button id="reset">
+↻ Reset
+</button>
+
+</div>
+
+<div class="lap-container">
+
+<div class="lap-title">
+
+<h3>Lap Records</h3>
+
+<button id="clear">
+Clear
+</button>
+
+</div>
+
+<ul id="laps">
+
+<li class="empty">
+
+No laps recorded.
+
+</li>
+
+</ul>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
