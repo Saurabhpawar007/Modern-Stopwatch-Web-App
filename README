@@ -1,0 +1,48 @@
+# ⏱️ Modern Stopwatch Web Application
+
+A modern, responsive, and interactive Stopwatch Web Application built using HTML, CSS, and JavaScript. This project was developed as **Task 02** during my Web Development Internship to strengthen my frontend development skills and JavaScript programming concepts.
+
+## ✨ Features
+
+- ▶️ Start & Pause Stopwatch
+- 🔄 Reset Stopwatch
+- 🏁 Lap Time Recording
+- 🗑️ Clear Lap Records
+- ⌨️ Keyboard Shortcuts
+- ⚡ Millisecond Precision
+- 📱 Responsive Design
+- 🎨 Modern Glassmorphism User Interface
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+## 📂 Project Structure
+
+Modern-Stopwatch-Web-App
+├── index.html
+├── style.css
+└── script.js
+
+## 🚀 How to Run
+
+1. Clone this repository.
+2. Open the project folder.
+3. Open `index.html` in your browser or use Live Server in VS Code.
+
+## 📚 Learning Outcomes
+
+- JavaScript Timer Functions
+- DOM Manipulation
+- Event Handling
+- Responsive Web Design
+- Dynamic UI Updates
+
+## 🔮 Future Improvements
+
+- Dark/Light Theme
+- Save Lap History
+- Export Lap Records
+- Multiple Stopwatch Support
